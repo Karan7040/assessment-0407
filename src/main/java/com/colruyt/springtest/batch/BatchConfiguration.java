@@ -51,6 +51,7 @@ public class BatchConfiguration {
                 .dataSource(dataSource)
                 .build();
     }
+// todo : remove comments
 
 //    @Bean
 //    public FlatFileItemReader<EmployeeModel> readDetails(){
@@ -74,6 +75,7 @@ public class BatchConfiguration {
 //                .sql("INSERT INTO employee_data VALUES (:id, :name, :salary,:email, :mobile)").dataSource(dataSource).build();
 //
 //    }
+// todo  : copied from preivous project
 
     @Bean
     public Job job(JobRepository jobRepository,Step step){
