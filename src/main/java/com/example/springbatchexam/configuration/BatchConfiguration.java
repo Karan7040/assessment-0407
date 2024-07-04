@@ -29,7 +29,7 @@ public class BatchConfiguration {
     public JsonItemReader<Employee> reader() {
         return new JsonItemReaderBuilder<Employee>()
                 .jsonObjectReader(new JacksonJsonObjectReader<>(Employee.class))
-                .resource(new ClassPathResource("employee.json"))
+                .resource(new ClassPathResource("employee.json"))  // todo: why hard coding path? in server this path wont be used
                 .name("employeeJsonItemReader")
                 .build();
     }

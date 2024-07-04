@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// todo  : are we using Builder? if not then remove @Builder. Also @AllArgsConstructor, @NoArgsConstructor if not used remove them
 @Builder
 @Data
 @AllArgsConstructor
@@ -14,5 +15,5 @@ public class Employee {
     String name;
     String salary;
     String email;
-    String phoneno;
+    String phoneno; // todo : use phoneNumber
 }
