@@ -48,9 +48,9 @@ class Test3ApplicationTests {
 
 	@InjectMocks
 	CustomerService customerService;
-	@InjectMocks
+	@Mock
 	CustomerRepository customerRepository;
-
+// todo: tests are failing
 	@Test
 	@DataSet("dataset/customer.json")
 	void given_nothing_check_the_correct_output_allpassenger() throws Exception {
