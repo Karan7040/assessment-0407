@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+// todo: OK, created the reader.. now what it should do?
 
 @Component
 @StepScope
