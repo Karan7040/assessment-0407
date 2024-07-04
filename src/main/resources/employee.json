@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Ragul",
+    "salary": 55000,
+    "email": "ragul@example.com",
+    "mobile": "9876"
+  },
+  {
+    "id": 2,
+    "name": "dheivam",
+    "salary": 60000,
+    "email": "dheivam@example.com",
+    "mobile": "7890"
+  }
+]
