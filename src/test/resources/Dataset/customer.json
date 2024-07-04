@@ -1,0 +1,26 @@
+[
+  {
+    "CUST_ID": 87,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 11,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 20,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 62,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  }
+]
