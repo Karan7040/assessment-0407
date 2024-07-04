@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Jms2Application {
 
     public static void main(String[] args) {
-
+// todo; configuration file is missing.. incomplete code
         SpringApplication.run(Jms2Application.class, args);
         ConfigurableApplicationContext context = SpringApplication.run(Jms2Application.class, args);
 
