@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 public class CustomerController {
+    // todo: where is injection?
     private CustomerService customerService;
 
     @GetMapping("/get_customer")

@@ -10,9 +10,11 @@ import java.util.stream.Collectors;
 
 @Service
 public class CustomerService {
+    // todo: where is injection?
     private CustomerRepository customerRepository;
     public List<CustomerDto> getCustomer(){
         List<Customer> customer =  customerRepository.findAll();
+        // todo: customer1? is there a better name?
         return customer.stream().map(customer1 -> CustomerDto.builder()
                 .custId(customer1.getCustId())
                 .address(customer1.getAddress())

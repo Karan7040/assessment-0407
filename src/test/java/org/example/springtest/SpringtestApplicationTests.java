@@ -38,7 +38,7 @@ class SpringtestApplicationTests {
 
 	@Test
 	void whenCustomerNotFound_throwError() {
-
+// todo: does your service have IllegalArgumentException throwing anywhere? then why testing that?
 		Mockito.doThrow(new IllegalArgumentException("customer not found")).when(customerRepository).existsById(1);
 
 		assertThatThrownBy(() -> customerRepository.existsById(1))
