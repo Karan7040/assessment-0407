@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 
 public class CustomerService {
+    // todo : use construction injection
     @Autowired
     private CustomerRepository customerRepository;
 

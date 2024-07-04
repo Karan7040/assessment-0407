@@ -12,9 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/customers")
 
 public class CustomerController {
+    // todo : use construction injection
     @Autowired
     private CustomerService customerService;
-
+// todo : use either customerId or id;
     @GetMapping("/{custId}")
     public CustomerModel getCustomerById(@PathVariable Long custId) {
         return customerService.getCustomerById(custId);

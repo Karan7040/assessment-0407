@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "CUSTOMER")
-
+// todo : no need suffix of Model.. it is already a model , better suffix it with entity
 public class CustomerModel {
     @Id
     private Long customerId;
