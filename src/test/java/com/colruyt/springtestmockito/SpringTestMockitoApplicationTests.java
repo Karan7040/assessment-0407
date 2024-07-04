@@ -29,6 +29,7 @@ class SpringTestMockitoApplicationTests {
 
     @Test
     void contextLoads() {
+        // todo : you can remove if no test cases are written
     }
     @Autowired
     private MockMvc mockMvc;
