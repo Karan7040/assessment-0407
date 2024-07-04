@@ -1,0 +1,298 @@
+{
+"CUSTOMER":[
+  {
+    "CUST_ID": 1234,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Dinesh",
+    "LAST_NAME": "Kumar"
+  },
+  {
+    "CUST_ID": 124,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Dinesh",
+    "LAST_NAME": "Kumar"
+  },
+  {
+    "CUST_ID": 97,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 96,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 93,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 88,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 87,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 82,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 80,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 79,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 78,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 77,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 74,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 73,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 72,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 69,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 68,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 67,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 66,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 64,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 62,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 61,
+    "ADDRESS": "INDIA",
+    "FIRST_NAME": "BEN",
+    "LAST_NAME": "AFFLECK"
+  },
+  {
+    "CUST_ID": 58,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 56,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 54,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 52,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 50,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 49,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 48,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 47,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 46,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 45,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 43,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 42,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 40,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 38,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 36,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 34,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 33,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 32,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 27,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 23,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 20,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 18,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 15,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 11,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ben"
+  },
+  {
+    "CUST_ID": 9,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  },
+  {
+    "CUST_ID": 5,
+    "ADDRESS": "Kansas",
+    "FIRST_NAME": "Entry",
+    "LAST_NAME": "Last"
+  },
+  {
+    "CUST_ID": 4,
+    "ADDRESS": "NewYork",
+    "FIRST_NAME": "Harry",
+    "LAST_NAME": "Yer"
+  }
+]
+}
