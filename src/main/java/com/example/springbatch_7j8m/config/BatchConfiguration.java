@@ -23,6 +23,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
+// todo: why @EnableBatchProcessing if using spring version >=3?
 @EnableBatchProcessing
 @Configuration
 public class BatchConfiguration {
