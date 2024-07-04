@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PracticeBatchApplication {
 
 	public static void main(String[] args) {
+
+		// todo : Overall : very good : 10/10
 		SpringApplication.run(PracticeBatchApplication.class, args);
 	}
 
