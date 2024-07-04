@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    password: EDU1D001ONTW
+    username: EDU1D001ONTW
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//dbsrvoractib0:1521/oractib0

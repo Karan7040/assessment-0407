@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    hikari:
+      maximum-pool-size: 4
+      jdbc-url: jdbc:h2:mem:${random.uuid};DB_CLOSE_DELAY=-1;INIT=CREATE SCHEMA IF NOT EXISTS EDU1D001ONTW;TRACE_LEVEL_SYSTEM_OUT=0;CASE_INSENSITIVE_IDENTIFIERS=TRUE;Mode=Oracle
+      schema: EDU1D001ONTW
