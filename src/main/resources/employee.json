@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1043434,
+    "name": "Asshwanth",
+    "salary": 500000,
+    "email": "assh@gmail.com",
+    "phoneno": "9876543210"
+  },
+  {
+    "id": 254545,
+    "name": "PAramesh",
+    "salary": 600000,
+    "email": "paramesh@gmail.com",
+    "phoneno": "9876546750"
+  }
+]
