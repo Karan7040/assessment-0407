@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class CustomerService {
+    // todo : make customerRepository final
     private CustomerRepository customerRepository;
 
     public CustomerService(CustomerRepository customerRepository) {

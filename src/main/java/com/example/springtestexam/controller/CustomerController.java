@@ -11,6 +11,8 @@ import java.util.List;
 
 @RestController
 public class CustomerController {
+    // todo : reformat the code (Ctrl + Alt + L)
+    // todo : can we make customerService final?
     private CustomerService customerService;
 
     public CustomerController(CustomerService customerService) {

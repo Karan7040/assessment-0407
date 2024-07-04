@@ -20,7 +20,8 @@ import java.io.Serializable;
 public class Customer implements Serializable {
 
     private static final long serialVersionUID = 1L;
-
+// todo : I hope we are using all the annotations in our code. if not remove them
+    // todo : keep customerId or id
     @Id
     @Column(name = "CUST_ID", nullable = false)
     private String custId;
