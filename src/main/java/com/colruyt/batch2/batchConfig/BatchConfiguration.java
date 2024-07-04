@@ -19,22 +19,27 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
+import java.util.Collections;
+import java.util.Optional;
 
+// todo : check package name
 @Configuration
 public class BatchConfiguration {
-
+    // todo : is the file.input is coming from application.properties file?
     @Value("${file.input}")
     private String fileInput;
 
+    // TODO: idea was to write JSON Reader not CSV Reader
     @Bean
     public FlatFileItemReader<com.colruyt.batch2.model.EmployeeModel> reader() {
+
         return new FlatFileItemReaderBuilder<com.colruyt.batch2.model.EmployeeModel>()
                 .name("studentItemReader")
                 .resource(new ClassPathResource(fileInput))
                 .delimited()
                 .names(new String[]{"id", "name", "salary", "email", "mobile"})
                 .fieldSetMapper(new BeanWrapperFieldSetMapper<com.colruyt.batch2.model.EmployeeModel>() {{
-                    setTargetType(com.colruyt.batch2.model.EmployeeModel.class);
+                    setTargetType(com.colruyt.batch2.model.EmployeeModel.class); // todo : why using fully qualified class name?
                 }})
                 .build();
     }
