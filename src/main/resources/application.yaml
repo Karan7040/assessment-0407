@@ -1,0 +1,17 @@
+
+spring:
+   datasource:
+    oracle:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//dbsrvoractib0:1521/oractib0
+    username: EDU1D001ONTW
+    password: EDU1D001ONTW
+
+   dataSource:
+    h2:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:${random.uuid}
+
+
+
+
