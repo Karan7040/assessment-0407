@@ -1,0 +1,18 @@
+{
+  "EMPLOYEE_DATA": [
+    {
+      "EMP_ID": 1,
+      "EMP_NAME": "Surya",
+      "SALARY": 6000,
+      "EMAIL": "sur@gmail.com",
+      "MOBILE": "9512364721"
+    },
+    {
+      "EMP_ID": 2,
+      "EMP_NAME": " ",
+      "SALARY": 6000,
+      "EMAIL": "upd@gmail.com",
+      "MOBILE": "9876543210"
+    }
+  ]
+}
