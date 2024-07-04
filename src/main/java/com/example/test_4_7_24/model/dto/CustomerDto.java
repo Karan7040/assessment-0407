@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class CustomerDto {
+
+    // todo: use camelCase
     private Integer customerid;
     private String customeraddress;
     private String customerfirstname;

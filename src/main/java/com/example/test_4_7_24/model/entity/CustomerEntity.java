@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class CustomerEntity {
+    // todo: use camelCase and why to put customer redundantly?
     @Id
     @Column(name = "CUST_ID")
     private Integer customerid;

@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @org.springframework.stereotype.Service
 public class CustomerService implements Service{
+    //todo: use constructor injection
     @Autowired
     private CustomerRepository customerRepository;
 

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 //@RequestMapping("customer")
 public class CustomerDetailsController {
+    // todo : use constructor injection please
     @Autowired
     CustomerService customerService;
 
