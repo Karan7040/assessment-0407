@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class JmsProducer {
-
+    // todo: if added lombok dependency then why dont you use it? use RequiredArgsConstructor to inject beans
     private final JmsTemplate jmsTemplate;
 
     private final Topic topic;
@@ -15,7 +15,7 @@ public class JmsProducer {
         this.jmsTemplate = jmsTemplate;
         this.topic = topic;
     }
-
+// todo: you need to call the method to publish the message
     public void produce(){
         jmsTemplate.convertAndSend("JMS_TEST","THIS MESSAGE IS FROM DINESH");
     }
