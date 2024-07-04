@@ -1,10 +1,17 @@
 package com.example.springjmsexam.producer;
 
-import jakarta.jms.*;
+import jakarta.jms.Connection;
+import jakarta.jms.ConnectionFactory;
+import jakarta.jms.Destination;
+import jakarta.jms.JMSException;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class JmsQueueProducer {
     public void produce() throws JMSException {
+        // todo : I see duplicate code in QueueConsumer and QueueProducer. Can we refactor it?
         String brokerURL = "tcp://localhost:61616";
         String queueName = "EXAM_QUEUE";
 

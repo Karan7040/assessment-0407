@@ -5,6 +5,8 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class JmsQueueConsumer {
     public void consume() throws JMSException {
+
+        // todo : use spring jms
         String brokerURL = "tcp://localhost:61616";
         String queueName = "EXAM_QUEUE";
 

@@ -13,6 +13,8 @@ public class JmsConfig {
     @Bean
     public ActiveMQConnectionFactory connectionFactory()
     {
+        // todo: can we somehow.. shift the jms properties to application properties for dynaming binding?
+        //todo : please reformat the code (Ctrl+Alt+L)
         ActiveMQConnectionFactory factory=new ActiveMQConnectionFactory();
         factory.setBrokerURL("tcp://localhost:61616");
         factory.setUserName("admin");

@@ -12,13 +12,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringJmsExamApplication implements CommandLineRunner {
-
+// todo: can we use here Constructor Injection instead of Field Injection?
     @Autowired
     private JmsProducer jmsProducer;
     @Autowired
     private JmsConsumer jmsConsumer;
 
     public static void main(String[] args) {
+        // todo : Overall : 7/10
         SpringApplication.run(SpringJmsExamApplication.class, args);
 
     }
