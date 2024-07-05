@@ -1,5 +1,6 @@
 package org.example.springtest.repository;
 
+import lombok.AllArgsConstructor;
 import org.example.springtest.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
