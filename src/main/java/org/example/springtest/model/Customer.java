@@ -16,6 +16,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Customer {
+    // todo: use either customerId or id;
+    // todo: are we using all the annotations? if not remove them
     @Id
     @Column(name = "CUST_ID")
     private Integer custId;

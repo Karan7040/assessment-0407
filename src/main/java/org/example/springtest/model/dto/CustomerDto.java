@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CustomerDto {
+    // todo: use either customerId or id;
         private Integer custId;
         private String address;
         private String firstName;
